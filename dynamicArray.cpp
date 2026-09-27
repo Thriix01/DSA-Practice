@@ -1,26 +1,84 @@
 
 class dynamicArray{
+    private:
+    
+    int* array = nullptr;
+    
+    int size;
+    int capacity;
+    
     public:
         dynamicArray(){
 
         }
 
-        void insert(){
+        ~dynamicArray(){
 
         }
 
-        void remove(){
-
-        }
-
-        int get(){
+        int at(){
             return 0;
         }
 
-        void resize(){
-            
+        int front(){
+            return 0;
         }
 
+        int back(){
+            return 0;
+        }
+
+        bool empty(){
+            return 0;
+        }
+
+        int size1(){
+            return 0;
+        };
+
+        void reserve(){
+
+        };
+
+        int capacity(){
+
+        };
+
+        void shrink_to_fit(){
+
+        };
+
+        void clear(){
+
+        };
+
+        void insert(){
+
+        };
+
+        void insert_range(){
+
+        };
+
+        void erase(){
+
+        };
+
+        void push_back(){
+
+        };
+
+        void append_range(){
+
+        };
+
+        void resize(){
+
+        };
+
+        void swap(){
+
+        };
 
 };
 
