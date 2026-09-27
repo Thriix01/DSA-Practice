@@ -32,16 +32,16 @@ class dynamicArray{
             return 0;
         }
 
-        int size1(){
-            return 0;
+        int getSize(){
+            return size;
         };
 
         void reserve(){
 
         };
 
-        int capacity(){
-
+        int getCapacity(){
+            return capacity;
         };
 
         void shrink_to_fit(){
